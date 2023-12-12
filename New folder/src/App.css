@@ -1,0 +1,45 @@
+main{
+  margin-left: 150px;
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+}
+.header{
+  position: sticky;
+  top:0px;
+  background-color: rgb(236, 242, 244);
+  color:rgb(0, 0, 0);
+  height:50px;  
+  margin-top: -20px;
+}
+h2{
+  margin-left: 700px;
+}
+.btn{
+  position: sticky;
+  top:50px;
+  display:flex;
+  margin-top: 50px;
+  margin-left:-50px;
+  justify-content: space-evenly;
+}
+.btn button{
+  transition: 1.1s;
+  padding:10px 30px;
+  color:white;
+  background-color:brown;
+  border:none;
+  cursor: pointer;
+}
+.btn button:hover{
+  transition: 1.1s;
+  color:brown;
+  border:1px solid black;
+  background-color: white;
+}
+p span{
+  background-color:black;
+  color:yellow;
+  padding:10px 30px;
+  border-radius: 10px;
+  cursor: pointer;
+}
